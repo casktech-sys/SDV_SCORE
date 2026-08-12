@@ -1,0 +1,20 @@
+# VM disk images (multi-GB, never commit)
+*.img
+*.qcow2
+
+# archives / build artifacts (regenerable)
+*.zip
+*.tar.gz
+
+# compiled binaries
+*.o
+*.out
+adas_writer
+ivi_reader
+adas_service
+ivi_client
+poke
+
+# local scratch
+hyp-poc/
+shmpoc/*.img
